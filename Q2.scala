@@ -5,17 +5,17 @@ object Q2
 		println("\n\tPrime Number Checker\n")
 		print("Enter the Number : ")
 		var num:Int=scala.io.StdIn.readInt();
-		
+		var count=2;
 		print("Prime Numbers : ");
 
-		while(num>1)
+		while(num>=count)
 		{
-			if(prime(num,num-1))
+			if(prime(count,count-1))
 			{
-				print(num+" ");
+				print(count+" ");
 			}
 			
-			num=num-1;
+			count=count+1;
 		}
 	}
 
