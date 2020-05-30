@@ -2,7 +2,7 @@ object Q4
 {
 	def main(args:Array[String])
 	{
-		println("\n\tSum Calculator\n")
+		println("\n\tOdd Even Finder")
 		print("Enter the Number : ")
 		var num:Int=scala.io.StdIn.readInt();
 
